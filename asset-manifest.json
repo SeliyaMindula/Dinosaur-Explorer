@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CI-CD-TEST/static/css/main.6dc3f6b2.css",
-    "main.js": "/CI-CD-TEST/static/js/main.0c66cd24.js",
-    "static/js/453.96453769.chunk.js": "/CI-CD-TEST/static/js/453.96453769.chunk.js",
-    "static/media/velociraptor.png": "/CI-CD-TEST/static/media/velociraptor.4b654ebeac0126a051af.png",
-    "index.html": "/CI-CD-TEST/index.html",
-    "main.6dc3f6b2.css.map": "/CI-CD-TEST/static/css/main.6dc3f6b2.css.map",
-    "main.0c66cd24.js.map": "/CI-CD-TEST/static/js/main.0c66cd24.js.map",
-    "453.96453769.chunk.js.map": "/CI-CD-TEST/static/js/453.96453769.chunk.js.map"
+    "main.css": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css",
+    "main.js": "/Dinosaur-Explorer/static/js/main.d34b05f8.js",
+    "static/js/453.96453769.chunk.js": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js",
+    "static/media/velociraptor.png": "/Dinosaur-Explorer/static/media/velociraptor.4b654ebeac0126a051af.png",
+    "index.html": "/Dinosaur-Explorer/index.html",
+    "main.6dc3f6b2.css.map": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css.map",
+    "main.d34b05f8.js.map": "/Dinosaur-Explorer/static/js/main.d34b05f8.js.map",
+    "453.96453769.chunk.js.map": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dc3f6b2.css",
-    "static/js/main.0c66cd24.js"
+    "static/js/main.d34b05f8.js"
   ]
 }
