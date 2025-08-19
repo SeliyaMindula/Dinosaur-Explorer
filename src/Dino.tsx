@@ -5,7 +5,6 @@ import {
   Typography,
   Box,
   Chip,
-  Avatar,
   Stack,
   Divider,
 } from "@mui/material";
@@ -67,45 +66,87 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
       }}
     >
       <CardContent sx={{ p: 3, flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
-        {/* Header with Avatar and Name */}
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-          <Avatar
+        {/* Large Dinosaur Image */}
+        <Box sx={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          mb: 3,
+          p: 2,
+          background: `linear-gradient(135deg, ${
+            dinoInfo.diet === 'Carnivore' 
+              ? 'rgba(255, 107, 107, 0.1), rgba(238, 90, 36, 0.1)' 
+              : 'rgba(0, 184, 148, 0.1), rgba(0, 160, 133, 0.1)'
+          })`,
+          borderRadius: 3,
+          border: `2px solid ${
+            dinoInfo.diet === 'Carnivore' 
+              ? 'rgba(255, 107, 107, 0.3)' 
+              : 'rgba(0, 184, 148, 0.3)'
+          }`,
+        }}>
+          <Box
+            component="img"
+            src={dinoInfo.image}
+            alt={`${dinoInfo.name} dinosaur`}
+            onError={(e) => {
+              // Fallback to emoji if image fails to load
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              const fallback = document.createElement('div');
+              fallback.innerHTML = dinoInfo.diet === 'Carnivore' ? '🦖' : '🦕';
+              fallback.style.cssText = `
+                font-size: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 200px;
+                filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+                animation: float 3s ease-in-out infinite;
+              `;
+              target.parentNode?.appendChild(fallback);
+            }}
             sx={{
-              width: 60,
-              height: 60,
-              fontSize: '2rem',
-              mr: 2,
-              background: `linear-gradient(135deg, ${
-                dinoInfo.diet === 'Carnivore' 
-                  ? '#ff6b6b, #ee5a24' 
-                  : '#00b894, #00a085'
-              })`,
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+              width: '100%',
+              maxWidth: 300,
+              height: 200,
+              objectFit: 'cover',
+              borderRadius: 2,
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2))',
+              animation: 'float 3s ease-in-out infinite',
+              '@keyframes float': {
+                '0%, 100%': {
+                  transform: 'translateY(0px)',
+                },
+                '50%': {
+                  transform: 'translateY(-10px)',
+                },
+              },
+            }}
+          />
+        </Box>
+
+        {/* Header with Name and Period */}
+        <Box sx={{ textAlign: 'center', mb: 3 }}>
+          <Typography
+            variant="h4"
+            component="h2"
+            sx={{
+              fontWeight: 700,
+              color: '#2c3e50',
+              lineHeight: 1.2,
+              mb: 1,
             }}
           >
-            {dinoInfo.image}
-          </Avatar>
-          <Box sx={{ flexGrow: 1 }}>
-            <Typography
-              variant="h4"
-              component="h2"
-              sx={{
-                fontWeight: 700,
-                color: '#2c3e50',
-                lineHeight: 1.2,
-                mb: 0.5,
-              }}
-            >
-              {dinoInfo.name}
-            </Typography>
-            <Chip
-              icon={<AccessTimeIcon />}
-              label={dinoInfo.period}
-              color={getPeriodColor(dinoInfo.period) as any}
-              size="small"
-              sx={{ fontWeight: 500 }}
-            />
-          </Box>
+            {dinoInfo.name}
+          </Typography>
+          <Chip
+            icon={<AccessTimeIcon />}
+            label={dinoInfo.period}
+            color={getPeriodColor(dinoInfo.period) as any}
+            size="small"
+            sx={{ fontWeight: 500 }}
+          />
         </Box>
 
         {/* Diet Badge */}
