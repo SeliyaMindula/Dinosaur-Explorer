@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css",
-    "main.js": "/Dinosaur-Explorer/static/js/main.0d324ebd.js",
+    "main.js": "/Dinosaur-Explorer/static/js/main.ecf4c959.js",
     "static/js/453.96453769.chunk.js": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js",
     "static/media/velociraptor.png": "/Dinosaur-Explorer/static/media/velociraptor.4b654ebeac0126a051af.png",
     "static/media/Triceratop.jpg": "/Dinosaur-Explorer/static/media/Triceratop.dc97fb5e38b696144d4f.jpg",
+    "static/media/Tyrannosaurus.jpg": "/Dinosaur-Explorer/static/media/Tyrannosaurus.91fb26d9134d89149427.jpg",
     "index.html": "/Dinosaur-Explorer/index.html",
     "main.6dc3f6b2.css.map": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css.map",
-    "main.0d324ebd.js.map": "/Dinosaur-Explorer/static/js/main.0d324ebd.js.map",
+    "main.ecf4c959.js.map": "/Dinosaur-Explorer/static/js/main.ecf4c959.js.map",
     "453.96453769.chunk.js.map": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6dc3f6b2.css",
-    "static/js/main.0d324ebd.js"
+    "static/js/main.ecf4c959.js"
   ]
 }
