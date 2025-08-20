@@ -43,7 +43,7 @@
       "height": "20 feet",
       "weight": "15,500 pounds",
       "description": "Tyrannosaurus is a genus of large theropod dinosaur. The species Tyrannosaurus rex, often called T. rex or colloquially T-Rex, is one of the best represented of these large theropods.",
-      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+      "image": "./images/Tyrannosaurus.jpg",
       "habitat": "North America",
       "speed": "25 mph",
       "discovery": "First discovered in 1902 by Barnum Brown",
