@@ -61,17 +61,7 @@ function App() {
       <Box className="App" sx={{ 
         minHeight: '100vh', 
         background: 'linear-gradient(135deg, #1B4332 0%, #2D6A4F 25%, #40916C 50%, #52B788 75%, #74C69D 100%)',
-        position: 'relative',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: 'radial-gradient(circle at 20% 80%, rgba(26, 67, 50, 0.8) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(45, 106, 79, 0.6) 0%, transparent 50%)',
-          pointerEvents: 'none',
-        }
+        position: 'relative'
       }}>
         {/* Header */}
         <Box
