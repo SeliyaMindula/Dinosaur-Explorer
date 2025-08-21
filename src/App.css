@@ -13,13 +13,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1B4332 0%, #2D6A4F 25%, #40916C 50%, #52B788 75%, #74C69D 100%);
   min-height: 100vh;
 }
 
 .App {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1B4332 0%, #2D6A4F 25%, #40916C 50%, #52B788 75%, #74C69D 100%);
   position: relative;
 }
 
