@@ -8,14 +8,14 @@ import './App.css';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#2E7D32',
-      light: '#4CAF50',
-      dark: '#1B5E20',
+      main: '#1B4332',
+      light: '#2D6A4F',
+      dark: '#081C15',
     },
     secondary: {
-      main: '#FF6F00',
-      light: '#FF8F00',
-      dark: '#E65100',
+      main: '#D4A574',
+      light: '#E9C5A0',
+      dark: '#B08968',
     },
     background: {
       default: '#f8fafc',
@@ -58,15 +58,49 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box className="App" sx={{ minHeight: '100vh', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <Box className="App" sx={{ 
+        minHeight: '100vh', 
+        background: 'linear-gradient(135deg, #1B4332 0%, #2D6A4F 25%, #40916C 50%, #52B788 75%, #74C69D 100%)',
+        position: 'relative',
+        '&::before': {
+          content: '""',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: 'radial-gradient(circle at 20% 80%, rgba(26, 67, 50, 0.8) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(45, 106, 79, 0.6) 0%, transparent 50%)',
+          pointerEvents: 'none',
+        }
+      }}>
         {/* Header */}
         <Box
           sx={{
-            background: 'rgba(255, 255, 255, 0.1)',
-            backdropFilter: 'blur(10px)',
-            borderBottom: '1px solid rgba(255, 255, 255, 0.2)',
-            py: 4,
+            position: 'relative',
+            background: 'linear-gradient(180deg, rgba(27, 67, 50, 0.95) 0%, rgba(45, 106, 79, 0.9) 100%)',
+            backdropFilter: 'blur(20px)',
+            borderBottom: '2px solid rgba(212, 165, 116, 0.3)',
+            py: 6,
             mb: 6,
+            boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              height: '1px',
+              background: 'linear-gradient(90deg, transparent 0%, rgba(212, 165, 116, 0.8) 50%, transparent 100%)',
+            },
+            '&::after': {
+              content: '""',
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              height: '1px',
+              background: 'linear-gradient(90deg, transparent 0%, rgba(212, 165, 116, 0.4) 50%, transparent 100%)',
+            }
           }}
         >
           <Container maxWidth="lg">
@@ -75,13 +109,27 @@ function App() {
               sx={{
                 textAlign: 'center',
                 color: 'white',
-                textShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-                mb: 2,
+                textShadow: '0 4px 12px rgba(0, 0, 0, 0.4)',
+                mb: 3,
                 fontWeight: 800,
-                background: 'linear-gradient(45deg, #fff, #f0f0f0)',
+                background: 'linear-gradient(45deg, #FFFFFF 0%, #F8F9FA 25%, #E9ECEF 50%, #DEE2E6 75%, #CED4DA 100%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
+                fontSize: { xs: '2.5rem', sm: '3rem', md: '3.5rem' },
+                letterSpacing: '0.02em',
+                position: 'relative',
+                '&::after': {
+                  content: '""',
+                  position: 'absolute',
+                  bottom: '-8px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  width: '120px',
+                  height: '3px',
+                  background: 'linear-gradient(90deg, transparent 0%, #D4A574 50%, transparent 100%)',
+                  borderRadius: '2px',
+                }
               }}
             >
               🦕 Dinosaur Explorer 🦖
@@ -90,9 +138,13 @@ function App() {
               variant="h6"
               sx={{
                 textAlign: 'center',
-                color: 'rgba(255, 255, 255, 0.9)',
-                fontWeight: 300,
-                letterSpacing: 1,
+                color: 'rgba(255, 255, 255, 0.95)',
+                fontWeight: 400,
+                letterSpacing: 1.5,
+                fontSize: { xs: '1rem', sm: '1.1rem' },
+                textShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
+                fontStyle: 'italic',
+                opacity: 0.9,
               }}
             >
               Discover the fascinating world of prehistoric creatures
@@ -101,7 +153,7 @@ function App() {
         </Box>
 
         {/* Main Content */}
-        <Container maxWidth="lg" sx={{ pb: 8 }}>
+        <Container maxWidth="lg" sx={{ pb: 8, position: 'relative', zIndex: 1 }}>
           <DinoList />
         </Container>
       </Box>
