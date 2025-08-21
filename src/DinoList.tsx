@@ -17,9 +17,7 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import dinosaurData from './data/dinosaurs.json';
-import VelociraptorImage from './images/velociraptor.png';
-import TriceratopsImage from './images/Triceratop.jpg';
-import TyrannosaurusImage from './images/Tyrannosaurus.jpg';
+
 
 const DinoList = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,16 +25,7 @@ const DinoList = () => {
   const [periodFilter, setPeriodFilter] = useState('all');
 
   const dinos = useMemo(() => {
-    const imageMap: { [key: string]: string } = {
-      './images/velociraptor.png': VelociraptorImage,
-      './images/Triceratop.jpg': TriceratopsImage,
-      './images/Tyrannosaurus.jpg': TyrannosaurusImage,
-    };
-
-    return dinosaurData.dinosaurs.map(dino => ({
-      ...dino,
-      image: imageMap[dino.image] || dino.image
-    }));
+    return dinosaurData.dinosaurs;
   }, []);
 
   // Filter and search logic
