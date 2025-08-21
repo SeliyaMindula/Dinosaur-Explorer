@@ -61,7 +61,7 @@
       "height": "14 feet",
       "weight": "5,000 pounds",
       "description": "Stegosaurus is a genus of herbivorous, four-legged, armored dinosaur from the Late Jurassic, characterized by the distinctive kite-shaped upright plates along their backs and spikes on their tails.",
-      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+      "image": "/Dinosaur-Explorer/images/stegosaurus.jpg",
       "habitat": "North America",
       "speed": "15 mph",
       "discovery": "First discovered in 1877 by Othniel Charles Marsh",
@@ -79,7 +79,7 @@
       "height": "50 feet",
       "weight": "88,000 pounds",
       "description": "Brachiosaurus is a genus of sauropod dinosaur that lived in North America during the Late Jurassic, about 154–153 million years ago. It was one of the tallest and largest dinosaurs.",
-      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+      "image": "/Dinosaur-Explorer/images/brachiosaurus.jpg",
       "habitat": "North America",
       "speed": "12 mph",
       "discovery": "First discovered in 1903 by Elmer S. Riggs",
@@ -97,7 +97,7 @@
       "height": "23 feet",
       "weight": "20,000 pounds",
       "description": "Spinosaurus is a genus of spinosaurid dinosaur that lived in what now is North Africa during the Cenomanian to upper Turonian stages of the Late Cretaceous period, about 99 to 93.5 million years ago.",
-      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+      "image": "/Dinosaur-Explorer/images/spinosaurus.jpeg",
       "habitat": "North Africa",
       "speed": "18 mph",
       "discovery": "First discovered in 1912 by Ernst Stromer",
@@ -106,6 +106,132 @@
         "Semi-aquatic lifestyle",
         "Had a sail-like structure on its back",
         "Specialized in catching fish"
+      ]
+    },
+    {
+      "name": "Allosaurus",
+      "period": "Late Jurassic",
+      "diet": "Carnivore",
+      "height": "16 feet",
+      "weight": "4,000 pounds",
+      "description": "Allosaurus is a genus of large theropod dinosaur that lived 155 to 145 million years ago during the late Jurassic period. It was one of the most common large predators of its time.",
+      "image": "/Dinosaur-Explorer/images/allosaurus.jpg",
+      "habitat": "North America",
+      "speed": "30 mph",
+      "discovery": "First discovered in 1877 by Othniel Charles Marsh",
+      "funFacts": [
+        "Had serrated teeth for tearing flesh",
+        "Hunted in packs",
+        "Was smaller but more agile than T-Rex",
+        "Had three-fingered hands with sharp claws"
+      ]
+    },
+    {
+      "name": "Diplodocus",
+      "period": "Late Jurassic",
+      "diet": "Herbivore",
+      "height": "30 feet",
+      "weight": "50,000 pounds",
+      "description": "Diplodocus is a genus of diplodocid sauropod dinosaurs whose fossils were first discovered in 1877 by S. W. Williston. It is one of the longest dinosaurs known.",
+      "image": "/Dinosaur-Explorer/images/diplodocus.jpg",
+      "habitat": "North America",
+      "speed": "10 mph",
+      "discovery": "First discovered in 1877 by Samuel Wendell Williston",
+      "funFacts": [
+        "One of the longest dinosaurs ever",
+        "Had a whip-like tail for defense",
+        "Could reach vegetation up to 30 feet high",
+        "Had a small head compared to body size"
+      ]
+    },
+    {
+      "name": "Ankylosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "5.6 feet",
+      "weight": "13,000 pounds",
+      "description": "Ankylosaurus is a genus of armored dinosaur. Its fossils have been found in geological formations dating to the very end of the Cretaceous Period, about 68–66 million years ago.",
+      "image": "/Dinosaur-Explorer/images/ankylosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "6 mph",
+      "discovery": "First discovered in 1908 by Barnum Brown",
+      "funFacts": [
+        "Had bony armor covering its body",
+        "Had a club-like tail for defense",
+        "Was nearly impossible to attack",
+        "Lived alongside T-Rex"
+      ]
+    },
+    {
+      "name": "Pterodactyl",
+      "period": "Late Jurassic",
+      "diet": "Carnivore",
+      "height": "3.3 feet",
+      "weight": "2 pounds",
+      "description": "Pterodactylus is a genus of pterosaurs, whose members are popularly known as pterodactyls. It was the first pterosaur genus to be named and identified as a flying reptile.",
+      "image": "/Dinosaur-Explorer/images/pterodactyl.jpg",
+      "habitat": "Europe",
+      "speed": "35 mph",
+      "discovery": "First discovered in 1784 by Cosimo Alessandro Collini",
+      "funFacts": [
+        "Actually not a dinosaur but a flying reptile",
+        "Had a wingspan of up to 3 feet",
+        "Could fly and walk on land",
+        "Had a long beak for catching fish"
+      ]
+    },
+    {
+      "name": "Parasaurolophus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "16 feet",
+      "weight": "6,000 pounds",
+      "description": "Parasaurolophus is a genus of herbivorous ornithopod dinosaur that lived in what is now North America during the Late Cretaceous Period, about 76.5–73 million years ago.",
+      "image": "/Dinosaur-Explorer/images/parasaurolophus.jpg",
+      "habitat": "North America",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1922 by William Parks",
+      "funFacts": [
+        "Had a distinctive crest on its head",
+        "The crest may have been used for communication",
+        "Could make loud sounds through its crest",
+        "Lived in herds for protection"
+      ]
+    },
+    {
+      "name": "Carnotaurus",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "height": "13 feet",
+      "weight": "3,000 pounds",
+      "description": "Carnotaurus is a genus of theropod dinosaur that lived in South America during the Late Cretaceous period, probably sometime between 72 and 69.9 million years ago.",
+      "image": "/Dinosaur-Explorer/images/carnotaurus.jpeg",
+      "habitat": "South America",
+      "speed": "35 mph",
+      "discovery": "First discovered in 1985 by José Bonaparte",
+      "funFacts": [
+        "Had distinctive horns above its eyes",
+        "Was a fast runner",
+        "Had very small arms",
+        "Lived in what is now Argentina"
+      ]
+    },
+    {
+      "name": "Iguanodon",
+      "period": "Early Cretaceous",
+      "diet": "Herbivore",
+      "height": "16 feet",
+      "weight": "11,000 pounds",
+      "description": "Iguanodon is a genus of ornithopod dinosaur that existed roughly halfway between the first of the swift bipedal hypsilophodontids and the ornithopods' culmination in the duck-billed dinosaurs.",
+      "image": "/Dinosaur-Explorer/images/iguanodon.jpg",
+      "habitat": "Europe",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1825 by Gideon Mantell",
+      "funFacts": [
+        "One of the first dinosaurs ever discovered",
+        "Had thumb spikes for defense",
+        "Could walk on two or four legs",
+        "Had a beak-like mouth for eating plants"
       ]
     }
   ]
