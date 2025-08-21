@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css",
-    "main.js": "/Dinosaur-Explorer/static/js/main.fd51e817.js",
+    "main.css": "/Dinosaur-Explorer/static/css/main.65204d68.css",
+    "main.js": "/Dinosaur-Explorer/static/js/main.2c6ac6ae.js",
     "static/js/453.96453769.chunk.js": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js",
     "index.html": "/Dinosaur-Explorer/index.html",
-    "main.6dc3f6b2.css.map": "/Dinosaur-Explorer/static/css/main.6dc3f6b2.css.map",
-    "main.fd51e817.js.map": "/Dinosaur-Explorer/static/js/main.fd51e817.js.map",
+    "main.65204d68.css.map": "/Dinosaur-Explorer/static/css/main.65204d68.css.map",
+    "main.2c6ac6ae.js.map": "/Dinosaur-Explorer/static/js/main.2c6ac6ae.js.map",
     "453.96453769.chunk.js.map": "/Dinosaur-Explorer/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc3f6b2.css",
-    "static/js/main.fd51e817.js"
+    "static/css/main.65204d68.css",
+    "static/js/main.2c6ac6ae.js"
   ]
 }
