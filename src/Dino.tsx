@@ -289,26 +289,48 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
         fullWidth
         PaperProps={{
           sx: {
-            borderRadius: 3,
+            borderRadius: { xs: 0, sm: 3 },
             background: 'rgba(255, 255, 255, 0.98)',
             backdropFilter: 'blur(20px)',
             border: '1px solid rgba(255, 255, 255, 0.3)',
+            margin: { xs: 0, sm: 2 },
+            maxHeight: { xs: '100vh', sm: '90vh' },
+            width: { xs: '100%', sm: 'auto' },
           }
         }}
       >
         <DialogTitle sx={{ 
-          pb: 1,
+          pb: { xs: 1, sm: 1 },
+          px: { xs: 2, sm: 3 },
+          pt: { xs: 2, sm: 3 },
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
+          flexDirection: { xs: 'column', sm: 'row' },
+          gap: { xs: 2, sm: 0 },
           background: `linear-gradient(135deg, ${
             dinoInfo.diet === 'Carnivore' 
               ? 'rgba(255, 107, 107, 0.1), rgba(238, 90, 36, 0.1)' 
               : 'rgba(0, 184, 148, 0.1), rgba(0, 160, 133, 0.1)'
           })`,
         }}>
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-            <Typography variant="h4" sx={{ fontWeight: 700, color: '#2c3e50' }}>
+          <Box sx={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: 2,
+            flexDirection: { xs: 'column', sm: 'row' },
+            textAlign: { xs: 'center', sm: 'left' },
+            width: { xs: '100%', sm: 'auto' }
+          }}>
+            <Typography 
+              variant="h4" 
+              sx={{ 
+                fontWeight: 700, 
+                color: '#2c3e50',
+                fontSize: { xs: '1.75rem', sm: '2.125rem' },
+                lineHeight: { xs: 1.2, sm: 1.3 }
+              }}
+            >
               {dinoInfo.name}
             </Typography>
             <Chip
@@ -323,6 +345,9 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
             onClick={() => setModalOpen(false)}
             sx={{
               color: '#7f8c8d',
+              position: { xs: 'absolute', sm: 'relative' },
+              top: { xs: 8, sm: 'auto' },
+              right: { xs: 8, sm: 'auto' },
               '&:hover': {
                 backgroundColor: 'rgba(127, 140, 141, 0.1)',
               }
@@ -332,26 +357,40 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
           </IconButton>
         </DialogTitle>
 
-        <DialogContent sx={{ p: 4 }}>
-          <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, mb: 4, pt: 4 }}>
-            <Box sx={{ flex: { md: 1 }, display: 'flex', justifyContent: 'center' }}>
+        <DialogContent sx={{ 
+          p: { xs: 2, sm: 4 },
+          pt: { xs: 2, sm: 4 }
+        }}>
+          <Box sx={{ 
+            display: 'flex', 
+            flexDirection: { xs: 'column', md: 'row' }, 
+            gap: { xs: 3, sm: 4 }, 
+            mb: { xs: 3, sm: 4 }, 
+            pt: { xs: 2, sm: 4 }
+          }}>
+            <Box sx={{ 
+              flex: { md: 1 }, 
+              display: 'flex', 
+              justifyContent: 'center',
+              order: { xs: 1, md: 1 }
+            }}>
               <Box
                 component="img"
                 src={dinoInfo.image}
                 alt={`${dinoInfo.name} dinosaur`}
                 sx={{
                   width: '100%',
-                  maxWidth: 400,
-                  height: 300,
+                  maxWidth: { xs: '100%', sm: 400 },
+                  height: { xs: 200, sm: 300 },
                   objectFit: 'cover',
-                  borderRadius: 3,
+                  borderRadius: { xs: 2, sm: 3 },
                   filter: 'drop-shadow(0 8px 16px rgba(0, 0, 0, 0.2))',
                 }}
               />
             </Box>
 
-            <Box sx={{ flex: { md: 1 } }}>
-              <Box sx={{ mb: 3 }}>
+            <Box sx={{ flex: { md: 1 }, order: { xs: 2, md: 2 } }}>
+              <Box sx={{ mb: { xs: 2, sm: 3 } }}>
                 <Chip
                   icon={<RestaurantIcon />}
                   label={dinoInfo.diet}
@@ -359,31 +398,45 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
                   variant="filled"
                   sx={{
                     fontWeight: 600,
-                    fontSize: '1rem',
-                    px: 3,
-                    py: 1,
-                    mb: 2,
+                    fontSize: { xs: '0.875rem', sm: '1rem' },
+                    px: { xs: 2, sm: 3 },
+                    py: { xs: 0.5, sm: 1 },
+                    mb: { xs: 1.5, sm: 2 },
                   }}
                 />
               </Box>
 
-              <Typography variant="h6" sx={{ mb: 2, fontWeight: 600, color: '#2c3e50' }}>
+              <Typography 
+                variant="h6" 
+                sx={{ 
+                  mb: { xs: 1.5, sm: 2 }, 
+                  fontWeight: 600, 
+                  color: '#2c3e50',
+                  fontSize: { xs: '1.125rem', sm: '1.25rem' }
+                }}
+              >
                 About {dinoInfo.name}
               </Typography>
               <Typography
                 variant="body1"
                 sx={{
                   lineHeight: 1.7,
-                  mb: 3,
+                  mb: { xs: 2, sm: 3 },
                   color: '#34495e',
+                  fontSize: { xs: '0.875rem', sm: '1rem' }
                 }}
               >
                 {dinoInfo.description}
               </Typography>
 
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, mb: 3 }}>
+              <Box sx={{ 
+                display: 'grid', 
+                gridTemplateColumns: { xs: '1fr', sm: '1fr 1fr' }, 
+                gap: { xs: 1.5, sm: 2 }, 
+                mb: { xs: 2, sm: 3 }
+              }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <HeightIcon sx={{ color: '#667eea' }} />
+                  <HeightIcon sx={{ color: '#667eea', fontSize: { xs: '1.25rem', sm: '1.5rem' } }} />
                   <Box>
                     <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
                       Height
@@ -394,7 +447,7 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
                   </Box>
                 </Box>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <ScaleIcon sx={{ color: '#f093fb' }} />
+                  <ScaleIcon sx={{ color: '#f093fb', fontSize: { xs: '1.25rem', sm: '1.5rem' } }} />
                   <Box>
                     <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
                       Weight
@@ -405,37 +458,44 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
                   </Box>
                 </Box>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <LocationOnIcon sx={{ color: '#3498db' }} />
+                  <LocationOnIcon sx={{ color: '#3498db', fontSize: { xs: '1.25rem', sm: '1.5rem' } }} />
                   <Box>
                     <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
                       Habitat
                     </Typography>
-                                         <Typography variant="body2" sx={{ fontWeight: 600, color: '#2c3e50' }}>
-                       {dinoInfo.habitat}
-                     </Typography>
+                    <Typography variant="body2" sx={{ fontWeight: 600, color: '#2c3e50' }}>
+                      {dinoInfo.habitat}
+                    </Typography>
                   </Box>
                 </Box>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <SpeedIcon sx={{ color: '#e74c3c' }} />
+                  <SpeedIcon sx={{ color: '#e74c3c', fontSize: { xs: '1.25rem', sm: '1.5rem' } }} />
                   <Box>
                     <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 500 }}>
                       Speed
                     </Typography>
-                                         <Typography variant="body2" sx={{ fontWeight: 600, color: '#2c3e50' }}>
-                       {dinoInfo.speed}
-                     </Typography>
+                    <Typography variant="body2" sx={{ fontWeight: 600, color: '#2c3e50' }}>
+                      {dinoInfo.speed}
+                    </Typography>
                   </Box>
                 </Box>
               </Box>
             </Box>
           </Box>
 
-          <Divider sx={{ mb: 4 }} />
+          <Divider sx={{ mb: { xs: 3, sm: 4 } }} />
 
-          <Box sx={{ mb: 4 }}>
-            <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1, mb: 2 }}>
-              <PsychologyIcon sx={{ color: '#9b59b6', mt: 0.2 }} />
-              <Typography variant="h6" sx={{ fontWeight: 600, color: '#2c3e50' }}>
+          <Box sx={{ mb: { xs: 3, sm: 4 } }}>
+            <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1, mb: { xs: 1.5, sm: 2 } }}>
+              <PsychologyIcon sx={{ color: '#9b59b6', mt: 0.2, fontSize: { xs: '1.25rem', sm: '1.5rem' } }} />
+              <Typography 
+                variant="h6" 
+                sx={{ 
+                  fontWeight: 600, 
+                  color: '#2c3e50',
+                  fontSize: { xs: '1.125rem', sm: '1.25rem' }
+                }}
+              >
                 Discovery
               </Typography>
             </Box>
@@ -444,25 +504,38 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
               sx={{
                 lineHeight: 1.7,
                 color: '#34495e',
-                pl: 3,
+                pl: { xs: 2, sm: 3 },
+                fontSize: { xs: '0.875rem', sm: '1rem' }
               }}
             >
-                             {dinoInfo.discovery}
+              {dinoInfo.discovery}
             </Typography>
           </Box>
 
           <Box>
-            <Typography variant="h6" sx={{ mb: 3, fontWeight: 600, color: '#2c3e50' }}>
+            <Typography 
+              variant="h6" 
+              sx={{ 
+                mb: { xs: 2, sm: 3 }, 
+                fontWeight: 600, 
+                color: '#2c3e50',
+                fontSize: { xs: '1.125rem', sm: '1.25rem' }
+              }}
+            >
               🦕 Fun Facts About {dinoInfo.name}
             </Typography>
-            <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 2 }}>
-                             {dinoInfo.funFacts?.map((fact: string, index: number) => (
+            <Box sx={{ 
+              display: 'grid', 
+              gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, 
+              gap: { xs: 1.5, sm: 2 }
+            }}>
+              {dinoInfo.funFacts?.map((fact: string, index: number) => (
                 <Box
                   key={index}
                   sx={{
-                    p: 3,
+                    p: { xs: 2, sm: 3 },
                     background: 'linear-gradient(135deg, rgba(52, 152, 219, 0.1), rgba(155, 89, 182, 0.1))',
-                    borderRadius: 3,
+                    borderRadius: { xs: 2, sm: 3 },
                     border: '1px solid rgba(52, 152, 219, 0.2)',
                     transition: 'transform 0.2s ease-in-out',
                     '&:hover': {
@@ -477,6 +550,7 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
                       fontWeight: 500,
                       color: '#2c3e50',
                       lineHeight: 1.6,
+                      fontSize: { xs: '0.875rem', sm: '1rem' }
                     }}
                   >
                     • {fact}
@@ -487,19 +561,25 @@ const Dino: React.FC<DinoProps> = ({ dinoInfo }) => {
           </Box>
         </DialogContent>
 
-        <DialogActions sx={{ p: 3, pt: 0 }}>
+        <DialogActions sx={{ 
+          p: { xs: 2, sm: 3 }, 
+          pt: 0,
+          justifyContent: 'center'
+        }}>
           <Button
             onClick={() => setModalOpen(false)}
             variant="contained"
+            fullWidth={false}
             sx={{
               background: dinoInfo.diet === 'Carnivore' ? '#ff6b6b' : '#00b894',
               '&:hover': {
                 background: dinoInfo.diet === 'Carnivore' ? '#ee5a24' : '#00a085',
               },
               fontWeight: 600,
-              px: 4,
-              py: 1.5,
+              px: { xs: 3, sm: 4 },
+              py: { xs: 1, sm: 1.5 },
               borderRadius: 2,
+              minWidth: { xs: '120px', sm: '140px' }
             }}
           >
             Close
