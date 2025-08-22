@@ -233,6 +233,672 @@
         "Could walk on two or four legs",
         "Had a beak-like mouth for eating plants"
       ]
+    },
+    {
+      "name": "Deinonychus",
+      "period": "Early Cretaceous",
+      "diet": "Carnivore",
+      "height": "5.5 feet",
+      "weight": "220 pounds",
+      "description": "Deinonychus is a genus of dromaeosaurid theropod dinosaur that lived during the Early Cretaceous, about 115–108 million years ago. It was a fast and agile predator.",
+      "image": "/Dinosaur-Explorer/images/Deinonychus.jpg",
+      "habitat": "North America",
+      "speed": "35 mph",
+      "discovery": "First discovered in 1931 by Barnum Brown",
+      "funFacts": [
+        "Inspiration for Jurassic Park's Velociraptor",
+        "Had a large sickle-shaped claw on each foot",
+        "Likely had feathers like its relatives",
+        "Hunted in coordinated packs"
+      ]
+    },
+    {
+      "name": "Apatosaurus",
+      "period": "Late Jurassic",
+      "diet": "Herbivore",
+      "height": "23 feet",
+      "weight": "72,000 pounds",
+      "description": "Apatosaurus is a genus of herbivorous sauropod dinosaur that lived in North America during the Late Jurassic period, about 152–151 million years ago.",
+      "image": "/Dinosaur-Explorer/images/Apatosaurus.jpg",
+      "habitat": "North America",
+      "speed": "12 mph",
+      "discovery": "First discovered in 1877 by Othniel Charles Marsh",
+      "funFacts": [
+        "Once confused with Brontosaurus",
+        "Had a long whip-like tail",
+        "Could weigh as much as five elephants",
+        "Had a small head for its massive body"
+      ]
+    },
+    {
+      "name": "Giganotosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "height": "20 feet",
+      "weight": "17,600 pounds",
+      "description": "Giganotosaurus is a genus of theropod dinosaur that lived in what is now Argentina during the early Cenomanian age of the Late Cretaceous, approximately 99.6 to 97 million years ago.",
+      "image": "/Dinosaur-Explorer/images/Giganotosaurus.jpg",
+      "habitat": "South America",
+      "speed": "31 mph",
+      "discovery": "First discovered in 1993 by Rubén D. Carolini",
+      "funFacts": [
+        "One of the largest carnivorous dinosaurs",
+        "Larger than T-Rex in size",
+        "Had blade-like teeth for slicing",
+        "Hunted large sauropods"
+      ]
+    },
+    {
+      "name": "Sauroposeidon",
+      "period": "Early Cretaceous",
+      "diet": "Herbivore",
+      "height": "60 feet",
+      "weight": "132,000 pounds",
+      "description": "Sauroposeidon is a genus of sauropod dinosaur that lived in North America during the Early Cretaceous, about 112 million years ago. It is one of the tallest dinosaurs known.",
+      "image": "/Dinosaur-Explorer/images/Sauroposeidon.jpeg",
+      "habitat": "North America",
+      "speed": "10 mph",
+      "discovery": "First discovered in 1994 by Richard Cifelli",
+      "funFacts": [
+        "Possibly the tallest dinosaur ever",
+        "Had an extremely long neck",
+        "Could reach heights of modern giraffes",
+        "Lived in floodplain environments"
+      ]
+    },
+    {
+      "name": "Therizinosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "16 feet",
+      "weight": "11,000 pounds",
+      "description": "Therizinosaurus is a genus of theropod dinosaur that lived in Asia during the Late Cretaceous period, about 70 million years ago. It had long claws and a unique appearance.",
+      "image": "/Dinosaur-Explorer/images/Therizinosaurus.jpg",
+      "habitat": "Asia",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1948 by a Soviet-Mongolian expedition",
+      "funFacts": [
+        "Had the longest claws of any dinosaur",
+        "Claws could reach up to 3 feet long",
+        "Likely used claws to gather plants",
+        "Had a bird-like appearance"
+      ]
+    },
+    {
+      "name": "Megalosaurus",
+      "period": "Middle Jurassic",
+      "diet": "Carnivore",
+      "height": "10 feet",
+      "weight": "2,200 pounds",
+      "description": "Megalosaurus is a genus of large theropod dinosaur that lived in what is now southern England during the Middle Jurassic, about 166 million years ago. It was one of the first dinosaurs scientifically described.",
+      "image": "/Dinosaur-Explorer/images/Megalosaurus.jpg",
+      "habitat": "Europe",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1824 by William Buckland",
+      "funFacts": [
+        "One of the first dinosaurs named",
+        "Had strong, sharp teeth for hunting",
+        "Lived in what is now England",
+        "Was a bipedal predator"
+      ]
+    },
+    {
+      "name": "Styracosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "6 feet",
+      "weight": "6,000 pounds",
+      "description": "Styracosaurus is a genus of herbivorous ceratopsian dinosaur that lived in what is now North America during the Late Cretaceous, about 75.5 to 75 million years ago.",
+      "image": "/Dinosaur-Explorer/images/Styracosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "20 mph",
+      "discovery": "First discovered in 1913 by Lawrence Lambe",
+      "funFacts": [
+        "Had a large nasal horn",
+        "Possessed a frill with long spikes",
+        "Lived in herds for protection",
+        "Related to Triceratops"
+      ]
+    },
+    {
+      "name": "Oviraptor",
+      "period": "Late Cretaceous",
+      "diet": "Omnivore",
+      "height": "3 feet",
+      "weight": "80 pounds",
+      "description": "Oviraptor is a genus of small theropod dinosaur that lived in Asia during the Late Cretaceous, about 75 million years ago. Its name means 'egg thief,' though it likely ate a varied diet.",
+      "image": "/Dinosaur-Explorer/images/Oviraptor.jpg",
+      "habitat": "Asia",
+      "speed": "35 mph",
+      "discovery": "First discovered in 1924 by Henry Fairfield Osborn",
+      "funFacts": [
+        "Had a beak similar to modern parrots",
+        "Likely cared for its eggs like birds",
+        "Had feathers and a bird-like appearance",
+        "May have eaten eggs, plants, and small animals"
+      ]
+    },
+    {
+      "name": "Argentinosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "70 feet",
+      "weight": "200,000 pounds",
+      "description": "Argentinosaurus is a genus of titanosaur sauropod dinosaur that lived in what is now Argentina during the Late Cretaceous, about 97 to 93.5 million years ago. It is one of the largest dinosaurs known.",
+      "image": "/Dinosaur-Explorer/images/Argentinosaurus.jpg",
+      "habitat": "South America",
+      "speed": "5 mph",
+      "discovery": "First discovered in 1987 by Guillermo Heredia",
+      "funFacts": [
+        "Possibly the heaviest dinosaur ever",
+        "Could weigh as much as 17 elephants",
+        "Had a long neck for reaching high vegetation",
+        "Lived in lush, forested environments"
+      ]
+    },
+    {
+      "name": "Troodon",
+      "period": "Late Cretaceous",
+      "diet": "Omnivore",
+      "height": "3 feet",
+      "weight": "110 pounds",
+      "description": "Troodon is a genus of small theropod dinosaur that lived in North America during the Late Cretaceous, about 77 to 74 million years ago. It is known for its relatively large brain.",
+      "image": "/Dinosaur-Explorer/images/Troodon.jpg",
+      "habitat": "North America",
+      "speed": "40 mph",
+      "discovery": "First discovered in 1856 by Joseph Leidy",
+      "funFacts": [
+        "Had one of the largest brains among dinosaurs",
+        "Likely had excellent vision and hearing",
+        "May have been nocturnal",
+        "Could eat both plants and small animals"
+      ]
+    },
+    {
+      "name": "Edmontosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "10 feet",
+      "weight": "8,800 pounds",
+      "description": "Edmontosaurus is a genus of hadrosaurid dinosaur that lived in North America during the Late Cretaceous, about 73 to 66 million years ago. It was a large, duck-billed dinosaur.",
+      "image": "/Dinosaur-Explorer/images/Edmontosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "28 mph",
+      "discovery": "First discovered in 1917 by Lawrence Lambe",
+      "funFacts": [
+        "Had a duck-like bill for eating plants",
+        "Lived in large herds",
+        "Could chew tough plant material",
+        "Fossils show evidence of skin impressions"
+      ]
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "height": "10 feet (standing)",
+      "weight": "550 pounds",
+      "description": "Quetzalcoatlus is a genus of pterosaur that lived in North America during the Late Cretaceous, about 68 to 66 million years ago. It was one of the largest flying animals ever.",
+      "image": "/Dinosaur-Explorer/images/Quetzalcoatlus.jpg",
+      "habitat": "North America",
+      "speed": "80 mph (flying)",
+      "discovery": "First discovered in 1971 by Douglas A. Lawson",
+      "funFacts": [
+        "Had a wingspan of up to 33 feet",
+        "Not a dinosaur but a flying reptile",
+        "Could soar like modern albatrosses",
+        "Likely scavenged or hunted small prey"
+      ]
+    },
+    {
+      "name": "Baryonyx",
+      "period": "Early Cretaceous",
+      "diet": "Carnivore",
+      "height": "10 feet",
+      "weight": "4,000 pounds",
+      "description": "Baryonyx is a genus of theropod dinosaur that lived in what is now Europe during the Early Cretaceous, about 130–125 million years ago. It was a fish-eating dinosaur with a crocodile-like snout.",
+      "image": "/Dinosaur-Explorer/images/Baryonyx.jpeg",
+      "habitat": "Europe",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1983 by William J. Walker",
+      "funFacts": [
+        "Had a large claw on its thumb",
+        "Specialized in catching fish",
+        "Related to Spinosaurus",
+        "Lived near rivers and lakes"
+      ]
+    },
+    {
+      "name": "Corythosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "10 feet",
+      "weight": "8,000 pounds",
+      "description": "Corythosaurus is a genus of hadrosaurid dinosaur that lived in North America during the Late Cretaceous, about 77–75.7 million years ago. It had a distinctive crest on its head.",
+      "image": "/Dinosaur-Explorer/images/Corythosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1912 by Barnum Brown",
+      "funFacts": [
+        "Crest used for sound production",
+        "Lived in forested areas",
+        "Had a beak for cropping plants",
+        "Could run on two legs"
+      ]
+    },
+    {
+      "name": "Dilophosaurus",
+      "period": "Early Jurassic",
+      "diet": "Carnivore",
+      "height": "6 feet",
+      "weight": "1,000 pounds",
+      "description": "Dilophosaurus is a genus of theropod dinosaur that lived in what is now North America during the Early Jurassic, about 193 million years ago. It had two crests on its head.",
+      "image": "/Dinosaur-Explorer/images/Dilophosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "30 mph",
+      "discovery": "First discovered in 1942 by Samuel P. Welles",
+      "funFacts": [
+        "Had two crests on its head",
+        "Not known to spit venom like in movies",
+        "Was an agile predator",
+        "Lived in a warm, humid environment"
+      ]
+    },
+    {
+      "name": "Plesiosaurus",
+      "period": "Early Jurassic",
+      "diet": "Carnivore",
+      "height": "5 feet (body height)",
+      "weight": "1,000 pounds",
+      "description": "Plesiosaurus is a genus of marine reptile that lived during the Early Jurassic, about 199–175 million years ago. It had a long neck and flippers for swimming.",
+      "image": "/Dinosaur-Explorer/images/Plesiosaurus.jpg",
+      "habitat": "Oceans (Europe)",
+      "speed": "15 mph (swimming)",
+      "discovery": "First discovered in 1821 by Mary Anning",
+      "funFacts": [
+        "Not a dinosaur but a marine reptile",
+        "Had a long neck with up to 70 vertebrae",
+        "Used flippers to swim efficiently",
+        "Ate fish and other marine animals"
+      ]
+    },
+    {
+      "name": "Utahraptor",
+      "period": "Early Cretaceous",
+      "diet": "Carnivore",
+      "height": "7 feet",
+      "weight": "1,500 pounds",
+      "description": "Utahraptor is a genus of large dromaeosaurid dinosaur that lived in North America during the Early Cretaceous, about 126 million years ago. It was one of the largest raptors.",
+      "image": "/Dinosaur-Explorer/images/Utahraptor.jpg",
+      "habitat": "North America",
+      "speed": "35 mph",
+      "discovery": "First discovered in 1991 by James Kirkland",
+      "funFacts": [
+        "Largest known raptor dinosaur",
+        "Had large sickle-shaped claws",
+        "Likely had feathers",
+        "Hunted in packs like Velociraptor"
+      ]
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "6 feet",
+      "weight": "1,000 pounds",
+      "description": "Pachycephalosaurus is a genus of pachycephalosaurid dinosaur that lived in North America during the Late Cretaceous, about 70–66 million years ago. It had a thick skull roof.",
+      "image": "/Dinosaur-Explorer/images/Pachycephalosaurus.jpg",
+      "habitat": "North America",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1938 by William Winkley",
+      "funFacts": [
+        "Had a dome-shaped skull up to 10 inches thick",
+        "May have head-butted rivals",
+        "Lived alongside T-Rex",
+        "Ate plants and possibly small animals"
+      ]
+    },
+    {
+      "name": "Mosasaurus",
+      "period": "Late Cretaceous",
+      "diet": "Carnivore",
+      "height": "10 feet (body height)",
+      "weight": "30,000 pounds",
+      "description": "Mosasaurus is a genus of marine reptile that lived during the Late Cretaceous, about 82–66 million years ago. It was a top predator in ancient oceans.",
+      "image": "/Dinosaur-Explorer/images/Mosasaurus.jpg",
+      "habitat": "Oceans (Global)",
+      "speed": "20 mph (swimming)",
+      "discovery": "First discovered in 1764 near Maastricht, Netherlands",
+      "funFacts": [
+        "Not a dinosaur but a marine reptile",
+        "Could grow up to 50 feet long",
+        "Had double-hinged jaws like a snake",
+        "Preyed on fish, ammonites, and other reptiles"
+      ]
+    },
+    {
+      "name": "Gallimimus",
+      "period": "Late Cretaceous",
+      "diet": "Omnivore",
+      "height": "6 feet",
+      "weight": "970 pounds",
+      "description": "Gallimimus is a genus of ornithomimid theropod dinosaur from Mongolia. It was a fast, ostrich-like dinosaur.",
+      "image": "/Dinosaur-Explorer/images/Gallimimus.jpeg",
+      "habitat": "Mongolia, Asia",
+      "speed": "43 mph",
+      "discovery": "First discovered in 1964 by Polish-Mongolian expedition",
+      "funFacts": [
+        "Name means 'chicken mimic'",
+        "One of the fastest dinosaurs",
+        "Had a long neck and toothless beak",
+        "Featured in Jurassic Park"
+      ]
+    },
+    {
+      "name": "Compsognathus",
+      "period": "Late Jurassic",
+      "diet": "Carnivore",
+      "height": "2 feet",
+      "weight": "6.6 pounds",
+      "description": "Compsognathus is a small, bipedal, carnivorous dinosaur that lived in Europe during the Late Jurassic period.",
+      "image": "/Dinosaur-Explorer/images/Compsognathus.jpg",
+      "habitat": "Europe",
+      "speed": "40 mph",
+      "discovery": "First discovered in 1859 by Joseph Oberndorfer",
+      "funFacts": [
+        "Size of a chicken",
+        "One of the first small theropods found",
+        "Likely hunted small reptiles and insects",
+        "Had long legs for speed"
+      ]
+    },
+    {
+      "name": "Ceratosaurus",
+      "period": "Late Jurassic",
+      "diet": "Carnivore",
+      "height": "12 feet",
+      "weight": "2,200 pounds",
+      "description": "Ceratosaurus is a medium-sized predatory theropod dinosaur, recognizable by the horn on its snout.",
+      "image": "/Dinosaur-Explorer/images/Ceratosaurus.jpeg",
+      "habitat": "North America",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1884 by Othniel Charles Marsh",
+      "funFacts": [
+        "Had a horn on its nose",
+        "Lived alongside Allosaurus",
+        "Possibly a scavenger and predator",
+        "Had strong jaws and blade-like teeth"
+      ]
+    },
+    {
+      "name": "Maiasaura",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "9 feet",
+      "weight": "4,000 pounds",
+      "description": "Maiasaura is a hadrosaurid dinosaur known for evidence of parental care.",
+      "image": "/Dinosaur-Explorer/images/Maiasaura.jpeg",
+      "habitat": "North America",
+      "speed": "20 mph",
+      "discovery": "First discovered in 1978 by Jack Horner",
+      "funFacts": [
+        "Name means 'Good Mother Lizard'",
+        "First dinosaur with evidence of nest care",
+        "Laid eggs in large colonies",
+        "A hadrosaur with a flat beak"
+      ]
+    },
+    {
+      "name": "Kentrosaurus",
+      "period": "Late Jurassic",
+      "diet": "Herbivore",
+      "height": "15 feet",
+      "weight": "2,200 pounds",
+      "description": "Kentrosaurus was a smaller relative of Stegosaurus with spikes on its body.",
+      "image": "/Dinosaur-Explorer/images/Kentrosaurus.jpg",
+      "habitat": "Africa",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1909 by German expedition",
+      "funFacts": [
+        "Had spikes along its back and tail",
+        "Lived in Tanzania",
+        "Could defend against predators with tail spikes",
+        "Part of the stegosaur family"
+      ]
+    },
+    {
+      "name": "Ouranosaurus",
+      "period": "Early Cretaceous",
+      "diet": "Herbivore",
+      "height": "16 feet",
+      "weight": "8,800 pounds",
+      "description": "Ouranosaurus is a genus of iguanodont dinosaur with a sail-like structure on its back.",
+      "image": "/Dinosaur-Explorer/images/Ouranosaurus.jpg",
+      "habitat": "Africa",
+      "speed": "20 mph",
+      "discovery": "First discovered in 1965 by Philippe Taquet",
+      "funFacts": [
+        "Had a sail on its back like Spinosaurus",
+        "May have used sail for heat regulation",
+        "A relative of Iguanodon",
+        "Lived in Niger"
+      ]
+    },
+    {
+      "name": "Mononykus",
+      "period": "Late Cretaceous",
+      "diet": "Insectivore",
+      "height": "3 feet",
+      "weight": "15 pounds",
+      "description": "Mononykus was a small theropod with a single large claw on each hand, likely used for digging.",
+      "image": "/Dinosaur-Explorer/images/Mononykus.jpg",
+      "habitat": "Asia",
+      "speed": "30 mph",
+      "discovery": "First discovered in 1993 in Mongolia",
+      "funFacts": [
+        "Name means 'one claw'",
+        "Likely ate insects like termites",
+        "Had bird-like features",
+        "Adapted for digging"
+      ]
+    },
+    {
+      "name": "Shunosaurus",
+      "period": "Middle Jurassic",
+      "diet": "Herbivore",
+      "height": "30 feet",
+      "weight": "7,700 pounds",
+      "description": "Shunosaurus is a sauropod dinosaur from China, notable for its tail club.",
+      "image": "/Dinosaur-Explorer/images/Shunosaurus.jpg",
+      "habitat": "Asia",
+      "speed": "12 mph",
+      "discovery": "First discovered in 1977 in Sichuan, China",
+      "funFacts": [
+        "Had a tail club for defense",
+        "One of the most complete sauropod fossils found in China",
+        "Lived in herds",
+        "Fed on low-lying plants"
+      ]
+    },
+    {
+      "name": "Huayangosaurus",
+      "period": "Middle Jurassic",
+      "diet": "Herbivore",
+      "height": "14 feet",
+      "weight": "1,100 pounds",
+      "description": "Huayangosaurus is an early stegosaurid dinosaur from China.",
+      "image": "/Dinosaur-Explorer/images/Huayangosaurus.jpg",
+      "habitat": "Asia",
+      "speed": "12 mph",
+      "discovery": "First discovered in 1979 in Sichuan, China",
+      "funFacts": [
+        "One of the earliest stegosaurs",
+        "Had small plates and spikes",
+        "Smaller than later stegosaurs",
+        "Lived during the Middle Jurassic"
+      ]
+    },
+    {
+      "name": "Dracorex",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "10 feet",
+      "weight": "600 pounds",
+      "description": "Dracorex is a pachycephalosaurid dinosaur with a dragon-like skull.",
+      "image": "/Dinosaur-Explorer/images/Dracorex.jpg",
+      "habitat": "North America",
+      "speed": "20 mph",
+      "discovery": "First discovered in 2004",
+      "funFacts": [
+        "Full name means 'Dragon King of Hogwarts'",
+        "Had spikes and bumps on its skull",
+        "May be a juvenile Pachycephalosaurus",
+        "Named by paleontologists inspired by Harry Potter"
+      ]
+    },
+    {
+      "name": "Cryolophosaurus",
+      "period": "Early Jurassic",
+      "diet": "Carnivore",
+      "height": "20 feet",
+      "weight": "1,500 pounds",
+      "description": "Cryolophosaurus is a theropod dinosaur from Antarctica, known for the crest on its head.",
+      "image": "/Dinosaur-Explorer/images/Cryolophosaurus.jpeg",
+      "habitat": "Antarctica",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1991 by David Elliot",
+      "funFacts": [
+        "Nicknamed 'Elvisaurus' for its crest",
+        "First dinosaur discovered in Antarctica",
+        "Crest may have been for display",
+        "Lived in a cold environment"
+      ]
+    },
+    {
+      "name": "Microraptor",
+      "period": "Early Cretaceous",
+      "diet": "Carnivore",
+      "height": "2.5 feet",
+      "weight": "2.2 pounds",
+      "description": "Microraptor is a small, feathered dinosaur with wings on both its arms and legs.",
+      "image": "/Dinosaur-Explorer/images/Microraptor.jpg",
+      "habitat": "Asia",
+      "speed": "25 mph (gliding)",
+      "discovery": "First discovered in 2000 in China",
+      "funFacts": [
+        "Had four wings",
+        "Could glide between trees",
+        "Had feathers like modern birds",
+        "A key fossil for bird evolution"
+      ]
+    },
+    {
+      "name": "Plateosaurus",
+      "period": "Late Triassic",
+      "diet": "Herbivore",
+      "height": "16 feet",
+      "weight": "8,800 pounds",
+      "description": "Plateosaurus is an early sauropodomorph dinosaur from Europe.",
+      "image": "/Dinosaur-Explorer/images/Plateosaurus.jpeg",
+      "habitat": "Europe",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1834 by Johann Friedrich Engelhardt",
+      "funFacts": [
+        "One of the earliest large herbivores",
+        "Could walk on two or four legs",
+        "Common dinosaur in Triassic Europe",
+        "Helped shape understanding of sauropod evolution"
+      ]
+    },
+    {
+      "name": "Coelophysis",
+      "period": "Late Triassic",
+      "diet": "Carnivore",
+      "height": "9 feet",
+      "weight": "50 pounds",
+      "description": "Coelophysis is a small, slender theropod dinosaur and one of the earliest known.",
+      "image": "/Dinosaur-Explorer/images/Coelophysis.jpeg",
+      "habitat": "North America",
+      "speed": "30 mph",
+      "discovery": "First discovered in 1881 by David Baldwin",
+      "funFacts": [
+        "Name means 'hollow form'",
+        "Lived in large groups",
+        "One of the first theropods discovered in the U.S.",
+        "May have been a cannibal"
+      ]
+    },
+    {
+      "name": "Herrerasaurus",
+      "period": "Late Triassic",
+      "diet": "Carnivore",
+      "height": "13 feet",
+      "weight": "460 pounds",
+      "description": "Herrerasaurus is one of the earliest known dinosaurs, a small carnivore from South America.",
+      "image": "/Dinosaur-Explorer/images/Herrerasaurus.png",
+      "habitat": "South America",
+      "speed": "25 mph",
+      "discovery": "First discovered in 1958 in Argentina",
+      "funFacts": [
+        "One of the earliest carnivorous dinosaurs",
+        "Had sharp teeth and claws",
+        "Walked on two legs",
+        "Lived before larger predators evolved"
+      ]
+    },
+    {
+      "name": "Massospondylus",
+      "period": "Early Jurassic",
+      "diet": "Herbivore",
+      "height": "13 feet",
+      "weight": "660 pounds",
+      "description": "Massospondylus is a prosauropod dinosaur from South Africa.",
+      "image": "/Dinosaur-Explorer/images/Massospondylus.jpg",
+      "habitat": "Africa",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1854 by J. W. Broom",
+      "funFacts": [
+        "Could walk on two or four legs",
+        "Among the earliest known long-necked dinosaurs",
+        "Fossils include embryos",
+        "Herbivore with a long neck"
+      ]
+    },
+    {
+      "name": "Anchiceratops",
+      "period": "Late Cretaceous",
+      "diet": "Herbivore",
+      "height": "6.6 feet",
+      "weight": "4,400 pounds",
+      "description": "Anchiceratops is a ceratopsid dinosaur with ornate frills.",
+      "image": "/Dinosaur-Explorer/images/Anchiceratops.jpg",
+      "habitat": "North America",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1912 by Barnum Brown",
+      "funFacts": [
+        "Had elaborate frill ornamentation",
+        "Close relative of Triceratops",
+        "Possibly used frill for display",
+        "Lived in herds"
+      ]
+    },
+    {
+      "name": "Psittacosaurus",
+      "period": "Early Cretaceous",
+      "diet": "Herbivore",
+      "height": "4 feet",
+      "weight": "44 pounds",
+      "description": "Psittacosaurus is a small ceratopsian dinosaur from Asia, known for its parrot-like beak.",
+      "image": "/Dinosaur-Explorer/images/Psittacosaurus.jpg",
+      "habitat": "Asia",
+      "speed": "15 mph",
+      "discovery": "First discovered in 1923 in Mongolia",
+      "funFacts": [
+        "Name means 'parrot lizard'",
+        "Had a beak like modern parrots",
+        "One of the most numerous dinosaur fossils found",
+        "Lived in herds"
+      ]
     }
   ]
 }
